@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fdf8f3;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #f3e7d8;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+.logo span {
+    color: #a86f32;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #a86f32;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to bottom, #f3e7d8, #fff);
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+} 
+
+
+.btn {
+    padding: 12px 25px;
+    background: #a86f32;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn:hover {
+    background: #875522;
+}
+
+/* CATALOG */
+.catalog {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.book-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 350px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* CONTACTS */
+.contacts {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f3e7d8;
+    margin-top: 40px;
+}
